@@ -1,0 +1,32 @@
+.header {
+    background-color: rgba(136, 58, 238, 0.628);
+}
+
+.header_container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_logo {
+    color: white;
+    font-weight: 700;
+    font-size: 42px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.navbar_link {
+    font-size: 16px;
+    font-weight: 700;
+    color: azure;
+    cursor: pointer;
+}
